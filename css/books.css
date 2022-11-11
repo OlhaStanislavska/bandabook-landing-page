@@ -1,0 +1,39 @@
+.pricing {
+    padding: 10px;
+}
+
+.pricing__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.book-card {
+    border: 4px var(--bg-color);
+    border-style: dotted;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.book-card__image {
+    width: 80%;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.book-card__h3 {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 600px) {
+    .pricing__list {
+        flex-direction: row;
+    }
+    .book-card__image {
+        width: 208px;
+    }
+}

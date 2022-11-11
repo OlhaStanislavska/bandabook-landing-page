@@ -1,0 +1,32 @@
+/*
+<section class="about">
+<h1>Handcrafted felt books</h1> 
+<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+  et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+<form id="form" action="#">
+  <input type="email" name="email" id="email" placeholder="Enter your e-mail" required>
+  <input type="submit" id="submit" class="btn" value="Send me more about books">
+</form>
+</section> */
+
+.about {
+    padding: 20px;
+}
+
+h1 {
+    margin-top: 5px;
+}
+
+.about form {
+    margin-top: 15px;
+}
+
+#email, #submit {
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    font-size: 1em;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border-width: 1px;
+}

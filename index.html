@@ -12,36 +12,45 @@
 
 <body>
   <header class="header">
-    <div class="header__logo">
-      <img src="img/bandabook-logo-horiz.png" alt="Banda Book logo" />
-    </div>
-    <nav class="header__nav">
-      <a href="#features" class="header__nav-item">Features</a>
-      <a href="#whatch-it" class="header__nav-item">Whatch it</a>
-      <a href="#pricing" class="header__nav-item">Pricing</a>
-      <a href="#contacts" class="header__nav-item">Contacts</a>
-    </nav>  
+    <nav class="header-nav container">
+      <div class="header-nav__logo">
+        <img src="img/bandabook-logo-horiz.png" alt="Banda Book logo" />
+      </div>
+      <div class="header-nav__menu">
+        <a href="#about" class="header-nav__menu-item">About</a>
+        <a href="#whatch-it" class="header-nav__menu-item">Whatch it</a>
+        <a href="#pricing" class="header-nav__menu-item">Pricing</a>
+        <a href="#contacts" class="header-nav__menu-item">Contacts</a>
+      </div>  
+  </nav>
   </header>
-  <section>
-    <h1>Handcrafted felt books</h1>
-    <form id="form" action="#">
-      <input type="email" name="email" id="email" placeholder="Enter your e-mail" required>
-      <input type="submit" id="submit" clas="btn" value="Send me more about books">
-    </form>
-  </section>
+
   <div class="container">
-    <section class="features" id="features">
-      
+
+    <section class="about">
+      <h1>Handcrafted felt books</h1> 
+      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
+        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <form id="form" action="#">
+        <input type="email" name="email" id="email" placeholder="Enter your e-mail" required>
+        <input type="submit" id="submit" class="button" value="Tell me more">
+      </form>
     </section>
+
+    <!--
+    <section class="features" id="features">
+    </section> -->
+
     <div class="whatch-it" id="whatch-it">
-      <video class="video" controls>
+      <video class="whatch-it__video" controls>
         <source src="video/banda-book-20x20-book-review.mp4" type="video/mp4">
       </video>
     </div>
+
     <section class="pricing" id="pricing">
       <h2 id="book-pricing">Types and prices</h2>
       <div class="pricing__list">
-
         <article class="book-card">
           <img class="book-card__image" src="img/banda-book-page-12x12-cloud.jpg" alt="Felt book 12x12 cm with cloud and rain">
           <h3 class="book-card__h3">12x12 cm book</h3>
@@ -95,7 +104,8 @@
       </div>
     </section>
   </div>
-  <footer id="contacts" class="contacts">
+
+  <footer id="contacts" class="contacts container">
       <div class="contacts__social">
         <a class="contacts__social-fb" href="facebook.com"> <img src="img/fb-icon.png" alt="facebook"></a>
         <a class="contacts__social-ig" href="ttps://www.instagram.com/banda_book/"> <img src="img/ig_icon.png" alt="Instagram"></a>
